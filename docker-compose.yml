@@ -6,6 +6,6 @@ web:
    - "5000:5000"
   links:
    - redis
-  command: python app.py
+  command: python web/app.py
 redis:
   image: redis
